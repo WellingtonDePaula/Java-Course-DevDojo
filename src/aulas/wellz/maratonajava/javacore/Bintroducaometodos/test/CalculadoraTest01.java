@@ -8,7 +8,7 @@ public class CalculadoraTest01 {
 
         calculadora.somaDoisNumeros();
 
-        System.out.println("------------");
+        System.out.println("-------------");
 
         calculadora.subtraiDoisNumeros();
     }
