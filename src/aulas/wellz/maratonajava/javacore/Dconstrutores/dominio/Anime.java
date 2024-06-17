@@ -1,4 +1,4 @@
-package aulas.wellz.maratonajava.javacore.Csobrecargametodos.dominio;
+package aulas.wellz.maratonajava.javacore.Dconstrutores.dominio;
 
 public class Anime {
     private String nome;
@@ -8,20 +8,18 @@ public class Anime {
 
 
     public Anime() {
+
     }
 
-    public void init(String nome, String tipo, int episodios) {
+    public Anime(String nome, String tipo, int episodios, String genero) {
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
-    }
-    public void init(String nome, String tipo, int episodios, String genero) {
-        this.init(nome, tipo, episodios);
         this.genero = genero;
     }
 
     public void imprime() {
-        System.out.println(this.nome);
+        System.out.println("\n" + this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
