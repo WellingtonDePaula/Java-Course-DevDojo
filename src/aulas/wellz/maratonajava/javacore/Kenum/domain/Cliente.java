@@ -22,4 +22,12 @@ public class Cliente {
                 ", tipoPagamento=" + tipoPagamento +
                 '}';
     }
+
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
+    }
+
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
+    }
 }
