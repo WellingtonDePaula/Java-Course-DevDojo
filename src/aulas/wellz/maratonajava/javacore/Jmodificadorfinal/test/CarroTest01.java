@@ -2,7 +2,7 @@ package aulas.wellz.maratonajava.javacore.Jmodificadorfinal.test;
 
 import aulas.wellz.maratonajava.javacore.Jmodificadorfinal.domain.Carro;
 
-public class carroTest01 {
+public class CarroTest01 {
     public static void main(String[] args) {
         Carro carro = new Carro();
 
